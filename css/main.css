@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F5FFFA;
+}
+
+.container {
+  margin: 90px auto 0 auto;
+  max-width: 180px;
+}
+
+.apple {
+  background: green;
+  background: linear-gradient(#5bc236, #308014, #006400);
+  width: 208px;
+  height: 198px;
+  position: absolute;
+  border-radius: 35% 35% 41% 41% / 42% 42% 75% 75%;
+}
+
+.apple:before {
+  background: #5bc236;
+  content: "";
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  margin: -51px 0 0 100px;
+  border-radius: 100px 0;
+  z-index: 5;
+}
+
+.apple:after {
+  background: #F5FFFA;
+  content: "";
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  margin: 28px 0 0 174px;
+  border-radius: 50%;
+  transform: rotate (-53deg);
+  z-index: 4;
+  box-shadow: -127px -109.5px 0 #f5fffa, -118px -107px 0 #f5fffa, -115.5px -102.5px 0 #f5fffa, -105.5px -109.5px 0 #f5fffa, -105px -109.5px 0 #f5fffa, -129px 166px 0 #F5FFfa, -107.5px 166px 0 #F5FFFA, -119px 161px 0 #F5FFFA;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  margin-top: 210px;
+  margin-left: 20px;
+  display: inline-block;
+  z-index: 6;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #006400;
+}
